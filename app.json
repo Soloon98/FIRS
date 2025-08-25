@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "claude-fire",
+    "slug": "claude-fire",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.claudefire",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to upload fire incident photos.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to select fire incident images.",
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to accurately report fire incidents near you."
+      },
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.YOUR_IOS_CLIENT_ID"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.claudefire"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+  
+}
